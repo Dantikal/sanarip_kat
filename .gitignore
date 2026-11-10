@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+backend/venv/
+venv/
+
+# база и загруженные файлы — создаются локально (manage.py migrate)
+backend/db.sqlite3
+backend/media/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# редакторы / ОС
+.vscode/
+.idea/
+.DS_Store
